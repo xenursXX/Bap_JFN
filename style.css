@@ -1,0 +1,98 @@
+/**** NEWSLETTER ****/
+
+#newsletter .col-md-5 {
+	background-color: black;
+	height: 405px;
+	padding-left: 60px;
+	padding-right: 60px;
+
+}
+
+#newsletter .col-md-5 h2 {
+	color: white;	
+	line-height: 40px;
+}
+
+#newsletter .col-md-5 hr {
+	color: white;
+}
+
+#newsletter .col-md-5 .form-group {
+	margin-top: 70px;
+}
+
+#newsletter .col-md-5 .form-group input {
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	float: left;
+}
+
+#newsletter .col-md-5 .form-group button {
+	background-color: white;
+	float: left;
+	margin-left: 30px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+#newsletter .col-md-5 .contactbut {
+	margin-top: 30px;
+	background-color: white;
+	height: 50px;
+	border-radius: 10px;
+}
+
+#newsletter .col-md-7 {
+	background-color: black;
+	padding: 0;
+}
+
+#newsletter .col-md-7 .itineraire {
+	color: white;
+	padding: 10px;
+	padding-left: 10px;
+	height: 100px;
+}
+
+/**** END NEWSLETTER ****/
+
+/**** FOOTER ****/
+
+footer {
+	background-color: black;
+	height: 120px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+
+}
+
+footer .col-md-2 p {
+	color: white;
+	font-weight: bold;
+	margin-top: 40px;
+
+}
+
+footer .butfooter {
+	width: 150px;
+	height: 50px;
+	display: inline-block;
+	border: solid white 2px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+footer .butfooter p {
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+footer .footerdroite {
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+}
