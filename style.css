@@ -1,3 +1,112 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+hr {
+	border-color: #97aabd;
+	border-width: 3px;
+}
+a {
+	color: #97aabd;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
+a:hover {
+	color: #97aabd;
+}
+
+/**************  MENU   ***************/
+
+.menu{
+    background-color: black;
+    padding: 20px!important;
+}
+.navbar-fixed-top {
+	position: absolute;
+}
+.navbar-default {
+	border-color: rgba(34, 34, 34, 0.05);
+	background-color: black;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-header .navbar-brand {
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #ffffff;
+}
+.navbar-default .navbar-header .navbar-brand:hover {
+	color: #7db9e8;
+}
+.navbar-default .nav li a {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #ffffff;
+}
+.navbar-default .nav li a:hover {
+	color: #7db9e8;
+}
+.navbar-default .nav li .dropdown-menu {
+	background: transparent;
+}
+.navbar-default .nav li .dropdown-menu li a {
+	color: white;
+}
+.navbar-default .nav li .dropdown-menu li a:hover {
+	color: black;
+}
+.navbar-default .nav li.active a {
+	color: #7db9e8!important;
+	background-color: #ffffff;
+}
+/**************  FIN MENU   ***************/
+
+
+.forum {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    color: #fff;
+    background: url(images/city.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.forum .mask {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.forum .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    z-index: 5;
+}
+.forum .header-content .header-content-inner h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 250px;
+    text-transform: uppercase;
+    -webkit-animation-delay: 0.4s;
+}
+
 /**** NEWSLETTER ****/
 
 #newsletter .col-md-5 {
@@ -63,9 +172,10 @@ footer {
 	background-color: black;
 	height: 120px;
 	width: 100%;
-	position: absolute;
-	bottom: 0;
 
+}
+.footer{
+    background-color: black;
 }
 
 footer .col-md-2 p {
@@ -96,3 +206,4 @@ footer .footerdroite {
 	position: absolute;
 	right: 20px;
 }
+

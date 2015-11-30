@@ -14,38 +14,47 @@
 
   </head> -->
 
-<footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="butfooter">
-                    <p>LOGO</p>
-                </div> 
-            </div>
+        <footer>
+            <div class="container-fluid footer">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="butfooter">
+                            <p>LOGO</p>
+                        </div>
+                    </div>
 
-            <div class="col-md-2">
+                    <div class="col-md-2">
 
-                <p>COPYRIGHT 2015</p>
+                        <p>COPYRIGHT 2015</p>
 
-            </div>
+                    </div>
 
-            <div class="col-md-7">
-               <div class="footerdroite">
-                   <div class="butfooter">
-                    <p>A PROPOS</p>
-                   </div> 
-                   <div class="butfooter">
-                    <p>MENTIONS LEGALES</p>
-                   </div> 
-                   <div class="butfooter">
-                    <p>CONTACT</p>
-                   </div> 
-                   <div class="butfooter">
-                    <p>ACCUEIL</p>
-                   </div> 
+                    <div class="col-md-7">
+                       <div class="footerdroite">
+                           <div class="butfooter">
+                            <p>A PROPOS</p>
+                           </div>
+                           <div class="butfooter">
+                            <p>MENTIONS LEGALES</p>
+                           </div>
+                           <div class="butfooter">
+                            <p>CONTACT</p>
+                           </div>
+                           <div class="butfooter">
+                            <p>ACCUEIL</p>
+                           </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div> 
-    </div>
 
-</footer>
+        </footer>
+
+    </body>
+
+<script type="text/javascript" src="node_modules/bootstrap/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/js/bootstrap.min.js"></script>
+
+
+</html>
+
