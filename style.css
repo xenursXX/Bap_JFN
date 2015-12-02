@@ -4,8 +4,9 @@ body {
 	height: 100%;
 }
 hr {
-	border-color: #97aabd;
-	border-width: 3px;
+	border-color: black;
+	border-width: 2px;
+	width: 650px;
 }
 a {
 	color: #97aabd;
@@ -20,7 +21,7 @@ a:hover {
 /**************  MENU   ***************/
 
 .menu{
-    background-color: black;
+    background-color: white;
     padding: 20px!important;
 }
 .navbar-fixed-top {
@@ -34,13 +35,13 @@ a:hover {
 	transition: all .35s;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #ffffff;
+	background-color: black;
 }
 .navbar-default .navbar-header .navbar-brand {
 	font-size: 1.8em;
 	text-transform: uppercase;
 	font-weight: 300;
-	color: #ffffff;
+	color: black;
 }
 .navbar-default .navbar-header .navbar-brand:hover {
 	color: #7db9e8;
@@ -49,19 +50,18 @@ a:hover {
 	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: 300;
-	color: #ffffff;
+	color: black;
 }
 .navbar-default .nav li a:hover {
 	color: #7db9e8;
 }
 .navbar-default .nav li .dropdown-menu {
-	background: transparent;
 }
 .navbar-default .nav li .dropdown-menu li a {
-	color: white;
+	color: black;
 }
 .navbar-default .nav li .dropdown-menu li a:hover {
-	color: black;
+	color: white;
 }
 .navbar-default .nav li.active a {
 	color: #7db9e8!important;
@@ -107,37 +107,69 @@ a:hover {
     -webkit-animation-delay: 0.4s;
 }
 
-/**** NEWSLETTER ****/
+/**** PARTENAIRES ET EXPOSANTS ****/
 
-#newsletter .col-md-5 {
-	background-color: black;
-	height: 405px;
-	padding-left: 60px;
-	padding-right: 60px;
-
+#partenaires {
+	width: 100%;
+	height: 500px;
+	background-color: #535c87;
+	padding: 20px;
 }
 
-#newsletter .col-md-5 h2 {
-	color: white;	
-	line-height: 40px;
-}
-
-#newsletter .col-md-5 hr {
+#partenaires h2 {
 	color: white;
 }
 
-#newsletter .col-md-5 .form-group {
+#partenaires hr {
+	border-color: white;
+	width: 50%;
+	float: left;
+	border-width: 1px;
+}
+
+/**** END PARTENAIRES ET EXPOSANTS ****/
+
+/**** NEWSLETTER ****/
+
+#newsletter_accueil {
+	width: 100%;
+	height: 405px;
+}
+
+#newsletter_accueil .abonnement {
+	background-color: black;
+	height: 100%;
+	padding-left: 60px;
+	padding-right: 30px;
+	padding-top: 60px;
+
+}
+
+#newsletter_accueil .abonnement h2 {
+	color: white;
+	line-height: 40px;
+	text-align: center;
+}
+
+#newsletter_accueil .abonnement hr {
+	border-color: white;
+	text-align: center;
+	width: 250px;
+	border-width: 1px;
+}
+
+#newsletter_accueil .abonnement .form-group {
 	margin-top: 70px;
 }
 
-#newsletter .col-md-5 .form-group input {
-	width: 200px;
+#newsletter_accueil .abonnement .form-group input {
+	width: 60%;
 	height: 50px;
 	border-radius: 10px;
 	float: left;
 }
 
-#newsletter .col-md-5 .form-group button {
+#newsletter_accueil .abonnement .form-group button {
 	background-color: white;
 	float: left;
 	margin-left: 30px;
@@ -145,47 +177,43 @@ a:hover {
 	border-radius: 10px;
 }
 
-#newsletter .col-md-5 .contactbut {
-	margin-top: 30px;
-	background-color: white;
-	height: 50px;
-	border-radius: 10px;
+#newsletter_accueil .twitter {
+	height: 100%;
+	border: black solid 1px;
 }
 
-#newsletter .col-md-7 {
-	background-color: black;
-	padding: 0;
+#newsletter_accueil .twitter h2 {
+	text-align: center;
+	padding-top: 100px;
 }
 
-#newsletter .col-md-7 .itineraire {
-	color: white;
-	padding: 10px;
-	padding-left: 10px;
-	height: 100px;
-}
+
 
 /**** END NEWSLETTER ****/
 
 /**** FOOTER ****/
 
-footer {
+.footer_accueil {
 	background-color: black;
 	height: 120px;
 	width: 100%;
+	margin-top: 60px;
 
 }
-.footer{
-    background-color: black;
+
+
+.footer_accueil .logo p {
+	color: white;
+	font-weight: bold;
 }
 
-footer .col-md-2 p {
+.footer_accueil .copyright p {
 	color: white;
 	font-weight: bold;
 	margin-top: 40px;
-
 }
 
-footer .butfooter {
+.footer_accueil .butfooter {
 	width: 150px;
 	height: 50px;
 	display: inline-block;
@@ -194,16 +222,103 @@ footer .butfooter {
 	margin-top: 30px;
 }
 
-footer .butfooter p {
+.footer_accueil .butfooter p {
 	font-weight: bold;
 	text-align: center;
 	color: white;
 	padding-top: 10px;
 }
 
-footer .footerdroite {
+.footer_accueil .footerdroite {
 	display: inline-block;
 	position: absolute;
 	right: 20px;
 }
+/**** END FOOTER ****/
 
+
+/**** Présentation ****/
+
+.presentation{
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+.presentation .contenu p{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/**** Fin Présentation ****/
+
+/**** Transition ****/
+
+.transition {
+
+}
+
+.transition .row{
+
+}
+
+.transition .row .block1{
+	background-color: black;
+	height: 350px;
+}
+
+.transition .row .block2{
+	height: 350px;
+	display: flex;
+	align-items: center;
+}
+
+.transition .row .contenu_block2{
+
+}
+
+.transition .row p{
+	padding-top: 30px;
+}
+
+
+/**** Equipe ****/
+
+.equipe{
+	padding-top: 50px;
+	padding-bottom: 75px;
+
+}
+
+.equipe .contenu_equipe{
+
+}
+
+.equipe .row{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.equipe .row .panel {
+}
+.equipe .row .panel-heading {
+	padding: 0;
+	height: 300px!important;
+	background: black!important;
+	cursor: pointer;
+}
+.equipe .row .panel-body h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.equipe .row .panel-body h5 {
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: #737373;
+}
+.equipe .row .panel-body hr {
+	border: 1.5px solid #afafaf;
+	width: 100px;
+}
+
+/**** Fin Equipe ****/

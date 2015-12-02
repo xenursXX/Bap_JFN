@@ -32,7 +32,7 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Accueil</a>
+                        <a href="index.php">Accueil</a>
                     </li>
                     <li>
                         <a href="services.php">Autres services</a>
