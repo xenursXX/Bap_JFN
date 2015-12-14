@@ -127,6 +127,13 @@ a:hover {
 	border-width: 1px;
 }
 
+#partenaires .slider .content .block-1{
+	background-color: white;
+	height: 200px;
+	border: 2px solid;
+	width: 290px;
+}
+
 /**** END PARTENAIRES ET EXPOSANTS ****/
 
 /**** NEWSLETTER ****/
@@ -322,3 +329,329 @@ a:hover {
 }
 
 /**** Fin Equipe ****/
+
+
+/**** Programme ****/
+
+
+.programme{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.programme .titre-programme{
+	padding-bottom: 50px;
+}
+
+.programme .titre-programme h1{
+	text-transform: uppercase;
+}
+
+.programme .titre-programme hr{
+	float: left;
+}
+
+.tittel{
+	width:100%;
+	padding: 30px;
+	text-align:left;
+	font-size:2em;
+	background-color:black;
+	color:#f9f9f9;
+	border: 2px solid #f9f9f9;
+	cursor: pointer;
+}
+
+.info{
+	color:#333333;
+	width: 850px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.info h3{
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.info h4{
+	text-align: left;
+	text-indent: 2em;
+}
+/**** Fin Programme ****/
+
+/**** Transition Programme****/
+
+.transition-programme {
+
+}
+
+.transition-programme .row{
+
+}
+
+.transition-programme .row .block1{
+	background-color: black;
+	height: 350px;
+}
+
+.transition-programme .row .block2{
+	height: 350px;
+	display: flex;
+	align-items: center;
+}
+
+.transition-programme .row .contenu_block2{
+
+}
+
+.transition-programme .row p{
+	padding-top: 30px;
+}
+
+.transition-programme .row a{
+	display: block;
+	width: 511px;
+	text-transform: uppercase;
+	padding: 15px 80px;
+	margin: 0 auto;
+	background-color: black;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 10px;
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+}
+.transition-programme .row a:hover{
+	background-color: #122b40;
+}
+
+
+/**** Fin Programme ****/
+
+/**** Intervenant ****/
+
+.intervenant{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.intervenant .titre-intervenant{
+	padding-bottom: 50px;
+}
+
+.intervenant .titre-intervenant h1{
+	text-transform: uppercase;
+}
+
+.intervenant .titre-intervenant hr{
+	float: left;
+}
+
+.intervenant .intervenant-item {
+	right: 0;
+	margin: 0 0 15px;
+}
+
+.intervenant .intervenant-item .intervenant-link {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.intervenant .intervenant-item .intervenant-link .intervenant-hover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background: rgba(255,255,255,.9);
+	-webkit-transition: all ease .5s;
+	-moz-transition: all ease .5s;
+	transition: all ease .5s;
+}
+
+.intervenant .intervenant-item .intervenant-link .intervenant-hover:hover {
+	opacity: 1;
+}
+
+.intervenant .intervenant-item .intervenant-link .intervenant-hover .intervenant-hover-content {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 20px;
+	margin-top: -12px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+
+.intervenant .intervenant-item .intervenant-link .intervenant-hover .intervenant-hover-content i {
+	margin-top: -12px;
+}
+
+.intervenant .intervenant-item .intervenant-link .intervenant-hover .intervenant-hover-content h3,
+.intervenant .intervenant-item .intervenant-link .intervenant-hover .intervenant-hover-content h4 {
+	margin: 0;
+}
+
+.intervenant .intervenant-item .intervenant-caption {
+	margin: 0 auto;
+	padding: 25px;
+	max-width: 400px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.intervenant .intervenant-item .intervenant-caption h4 {
+	margin: 0;
+	text-transform: none;
+}
+
+.intervenant .intervenant-item .intervenant-caption p {
+	margin: 0;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.intervenant * {
+	z-index: 2;
+}
+
+.intervenant .voir-plus{
+	padding: 20px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 10px;
+	text-decoration: none;
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+}
+.intervenant .voir-plus:hover{
+	background-color: #1b6d85;
+}
+
+@media(min-width:767px) {
+	.intervenant .intervenant-item {
+		margin: 0 0 30px;
+	}
+}
+
+.intervenant-modal .modal-content {
+	padding: 100px 0;
+	min-height: 100%;
+	border: 0;
+	border-radius: 0;
+	text-align: center;
+	background-clip: border-box;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.intervenant-modal .modal-content h2 {
+	margin-bottom: 15px;
+	font-size: 3em;
+}
+
+.intervenant-modal .modal-content p {
+	margin-bottom: 30px;
+}
+
+.intervenant-modal .modal-content p.item-intro {
+	margin: 20px 0 30px;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.intervenant-modal .modal-content ul.list-inline {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.intervenant-modal .modal-content img {
+	margin-bottom: 30px;
+}
+
+.intervenant-modal .close-modal {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 75px;
+	height: 75px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.intervenant-modal .close-modal:hover {
+	opacity: .3;
+}
+
+.intervenant-modal .close-modal .lr {
+	z-index: 1051;
+	width: 1px;
+	height: 75px;
+	margin-left: 35px;
+	background-color: #222;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.intervenant-modal .close-modal .lr .rl {
+	z-index: 1052;
+	width: 1px;
+	height: 75px;
+	background-color: #222;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.intervenant-modal .modal-backdrop {
+	display: none;
+	opacity: 0;
+}
+
+
+/**** Fin Intervenant ****/
+
+.partenaire-exposant{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.partenaire-exposant .titre-partenaire-exposant{
+	padding-bottom: 50px;
+}
+
+.partenaire-exposant .titre-partenaire-exposant h1{
+	text-transform: uppercase;
+}
+
+.partenaire-exposant .titre-partenaire-exposant hr{
+	float: left;
+}
+
+
+.map {
+	height: 450px;
+}
+
+@media(max-width:768px) {
+	.map {
+		height: 75%;
+	}
+}
+
+
+
+

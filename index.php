@@ -6,8 +6,8 @@
 
         <!--boostrap link -->
         <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-        <link href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="slick.css">
+        <link rel="stylesheet" href="slick-theme.css">
         <link rel="stylesheet" href="style.css">
 
     </head>
@@ -74,7 +74,7 @@
             <div class="mask"></div>
             <div class="header-content text-center">
                 <div class="header-content-inner">
-                    <h2 class="animated fadeIn">forum <strong>JFN</strong> paris</h2>
+                    <h2 class="animated fadeIn">forum <strong><?php// the_field("");?></strong> paris</h2>
                 </div>
             </div>
         </div>
@@ -231,7 +231,29 @@
                     <div class="row">
                         <h2>PARTENAIRES ET EXPOSANT-E-S</h2>
                         <hr>
-
+                        <div class="filter">
+                            <select class="js-tp-voucher-filter form-control">
+                                <option value="__">all</option>
+                                <option value="|A|">A</option>
+                                <option value="|B|">B</option>
+                                <option value="|C|">C</option>
+                                <option value="|D|">D</option>
+                                <option value="|E|">E</option>
+                            </select>
+                        </div>
+                        <div class="content">
+                            <h2>Responsive Display</h2>
+                            <div class="js-tp-slider-filter">
+                                <div class="block-1" data-filter="|A|B|"><h3>A, B</h3></div>
+                                <div class="block-1" data-filter="|A|D|"><h3>A, D</h3></div>
+                                <div class="block-1" data-filter="|B|D|"><h3>B, D</h3></div>
+                                <div class="block-1" data-filter="|C|A|"><h3>C, A</h3></div>
+                                <div class="block-1" data-filter="|E|"><h3>E (1)</h3></div>
+                                <div class="block-1" data-filter="|C|"><h3>C (2)</h3></div>
+                                <div class="block-1" data-filter="|B|"><h3>B (3)</h3></div>
+                                <div class="block-1" data-filter="|A|"><h3>A (4)</h3></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -310,5 +332,9 @@
 
         <script type="text/javascript" src="node_modules/bootstrap/js/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="node_modules/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="node_modules/bootstrap/js/slick.min.js"></script>
+        <script type="text/javascript" src="node_modules/bootstrap/js/trieur.js"></script>
+
+
 
 </html>
